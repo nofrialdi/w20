@@ -5,16 +5,14 @@ import Student from "./Student/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "List Students",
+  title: "Login",
   description: "Student Apps",
 };
 
-export default function RootLayout() {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Student />
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
