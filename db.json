@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nofrialdi",
+      "email": "nofri@gmail.com",
+      "github": "https://github.com/nofrialdi"
+    },
+    {
+      "name": "Okky",
+      "email": "okky@gmail.com",
+      "github": "https://github.com/anggr",
+      "id": 5
+    },
+    {
+      "name": "Messel",
+      "email": "messel@gmail.com",
+      "github": "https://github.com/messel",
+      "id": 6
+    }
+  ]
+}
